@@ -47,10 +47,9 @@ button {
 
 .imageLinksBottom li img {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 85%;
   height: 80%;
-  object-fit: cover;
   border: 5px solid red;
 }
 
