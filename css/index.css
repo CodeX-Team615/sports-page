@@ -19,3 +19,14 @@ button {
   padding: 15px 25px;
   border-radius: 40%;
 }
+
+.mainImage {
+  display: flex;
+  justify-content: center;
+  opacity: .7;
+}
+
+.bottomImages {
+  display: flex;
+
+}
