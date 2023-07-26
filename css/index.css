@@ -1,0 +1,65 @@
+main {
+  width: 100%;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: fantasy;
+}
+
+.linkList {
+  font-size: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  
+}
+
+button {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: black;
+  color: antiquewhite;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
+.mainImage {
+  display: flex;
+  opacity: .7;
+  justify-content: center;
+  
+}
+
+.bottomImages {
+  opacity: .7;
+  padding: 10px;
+}
+
+.imageLinksBottom {
+  display: flex;
+}
+
+.imageLinksBottom {
+  list-style-type: none;
+  width: 100%;
+}
+
+.imageLinksBottom li img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  height: 80%;
+  border: 5px solid red;
+}
+
+button:hover {
+  background-color: blue;
+  color:yellow;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
