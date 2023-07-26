@@ -1,0 +1,26 @@
+h1 {
+  font-size: 75px;
+  font-family: fantasy;
+}
+
+ol {
+  font-size: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: black;
+  color: antiquewhite;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
+button:hover {
+  background-color: blue;
+  color:yellow;
+}
+
