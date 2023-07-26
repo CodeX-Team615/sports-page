@@ -24,3 +24,32 @@ button:hover {
   color:yellow;
 }
 
+.bios {
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.jon {
+  display: flex;
+  width: 75%;
+}
+
+.eric {
+  display: flex;
+  width: 75%;
+}
+
+.john {
+  display: flex;
+  width: 75%;
+}
+
+.Shekinah {
+  display: flex;
+  width: 75%;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+}
