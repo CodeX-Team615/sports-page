@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+}
+
+nav {
+display: flex;
+ 
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+font-family: fantasy;
+font-size: 75px;
+}
+
