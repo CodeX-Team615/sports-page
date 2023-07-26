@@ -24,32 +24,71 @@ button:hover {
   color:yellow;
 }
 
-.bios {
-  padding: 10px;
-  justify-content: space-evenly;
-}
-
 .jon {
   display: flex;
-  width: 75%;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.jon img {
+
+  width: 400px;
+  height: 400px;
+}
+
+.jon p {
+  font-size: 25px;
+  padding: 5rem;
 }
 
 .eric {
   display: flex;
-  width: 75%;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.eric img {
+
+  width: 400px;
+  height: 400px;
+}
+
+.eric p {
+  font-size: 25px;
+  padding: 5rem;
 }
 
 .john {
   display: flex;
-  width: 75%;
+  justify-content: space-around;
+  padding-bottom: 3rem;
 }
 
-.Shekinah {
+.john img {
+
+  width: 400px;
+  height: 400px;
+}
+
+.john p {
+  font-size: 25px;
+  padding: 5rem;
+}
+
+.shekinah {
   display: flex;
-  width: 75%;
+  justify-content: space-around;
+  padding-bottom: 3rem;
 }
 
-img {
-  max-width: 500px;
-  max-height: 500px;
+.shekinah img {
+
+  width: 700px;
+  height: 400px;
 }
+
+.shekinah p {
+  font-size: 25px;
+  padding: 5rem;
+}
+
