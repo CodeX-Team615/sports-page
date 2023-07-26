@@ -1,0 +1,16 @@
+h1 {
+  font-size: 75px;
+  font-family: fantasy;
+}
+
+
+
+button {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: black;
+  color: antiquewhite;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
