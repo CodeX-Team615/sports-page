@@ -17,3 +17,48 @@ font-family: fantasy;
 font-size: 75px;
 }
 
+.hats img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+
+.jerseys img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 200px;
+height: 200px;
+}
+
+.shoes img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 200px;
+height: 200px;
+}
+
+button {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: black;
+  color: antiquewhite;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
+button:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+ul{
+  font-size: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
