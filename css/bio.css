@@ -1,20 +1,94 @@
-.nav-button {
-display: block;
-margin-bottom: 10px;
-}
-.product-section {
-display: flex;
-align-items: center;
-margin-bottom: 20px;
- }
-
-.product-image {
-flex: 1;
-max-width: 100px; 
+h1 {
+  font-size: 75px;
+  font-family: fantasy;
 }
 
-.product-text {
-flex: 1;
- padding: 0 20px;
- 
+ol {
+  font-size: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
 }
+
+button {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: black;
+  color: antiquewhite;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
+button:hover {
+  background-color: blue;
+  color:yellow;
+}
+
+.jon {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.jon img {
+
+  width: 400px;
+  height: 400px;
+}
+
+.jon p {
+  font-size: 25px;
+  padding: 5rem;
+}
+
+.eric {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.eric img {
+
+  width: 400px;
+  height: 400px;
+}
+
+.eric p {
+  font-size: 25px;
+  padding: 5rem;
+}
+
+.john {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.john img {
+
+  width: 400px;
+  height: 400px;
+}
+
+.john p {
+  font-size: 25px;
+  padding: 5rem;
+}
+
+.shekinah {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.shekinah img {
+
+  width: 700px;
+  height: 400px;
+}
+
+.shekinah p {
+  font-size: 25px;
+  padding: 5rem;
+}
+

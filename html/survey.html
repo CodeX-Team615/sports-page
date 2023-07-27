@@ -8,8 +8,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
 
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/survey.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/survey.css" />
   </head>
 
   <body>
@@ -31,16 +31,17 @@
     </header>
     <main>
       <h2>
-        <img
-          src="/assets/mediaPicture.jpg"
-          alt="A picture of people with cellphones"
-          id="surveyLogo"
-        />
         <h2>The Choice Is Yours !!!</h2>
         <p>
           Hi there, Welcome to our new product survey. Where you determine the
           freshest new gear for our catalogue
         </p>
+
+        <img
+          src="/assets/mediaPicture.jpg"
+          alt="A picture of people with cellphones"
+          id="surveyLogo"
+        />
       </h2>
       <h2>Potential Products</h2>
       <section>
@@ -48,6 +49,11 @@
         <img />
         <img />
       </section>
+      <div>
+        <canvas id="myChart"></canvas>
+      </div>
+      <ul></ul>
     </main>
+    <script src="/js/survey.js"></script>
   </body>
 </html>
