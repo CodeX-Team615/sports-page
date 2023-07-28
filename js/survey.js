@@ -54,6 +54,11 @@ function productRenders() {
     localinfo[product1].views++;
     localinfo[product2].views++;
     localinfo[product3].views++;
+    localStorage.setItem('myProd', JSON.stringify(localinfo));
+  } else {
+    state.productsArray[product1].views++;
+    state.productsArray[product2].views++;
+    state.productsArray[product3].views++;
   }
 }
 
