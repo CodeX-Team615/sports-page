@@ -63,3 +63,17 @@ footer {
   justify-content: center;
 }
 
+@keyframes example {
+  0% {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: yellow;}
+  100% {background-color: red;}
+}
+
+body {
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
