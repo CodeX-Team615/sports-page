@@ -146,20 +146,20 @@ function renderChart() {
   let chartCanvas = document.getElementById('myChart').getContext('2d');
   const myChart = new Chart(chartCanvas, config);
 }
-let Burks = new Product('Burks Jersey', '/../assets/burksJersey.jpg');
-let Cubs = new Product('Cubs Hat', '/../assets/cubsHat.jpg');
-let Dodgers = new Product('Dodgers Hat', '/../assets/dodgersHat.jpg');
-let Frisbee = new Product('Frisbee Jersey', '/../assets/frisbeeJersey.jpg');
-let Yeezy = new Product('Grey Yeezy', '/../assets/greyYeezy.jpg');
-let Kobe = new Product('Kobe Jersey', '/../assets/kobeJersey.jpg');
-let Lebron = new Product('Lebron Jersey', '/../assets/lebronJersey.jpg');
-let Luka = new Product('Luka Jersey', '/../assets/lukaJersey.jpg');
-let Raiders = new Product('Raiders Hat', '/../assets/raidersHat.jpg');
-let Raptors = new Product('Raptors Hat', '/../assets/raptorsHat.jpg');
-let redNike = new Product('Red Domino', '/../assets/redDomino.jpg');
-let redDunks = new Product('Red Dunks', '/../assets/redDunk.jpg');
-let Retro11 = new Product('Retro Eleven', '/../assets/retroEleven.jpg');
-let Retro07 = new Product('Retro Seven', '/../assets/retroSeven.jpg');
+let Burks = new Product('Burks Jersey', '../assets/burksJersey.jpg');
+let Cubs = new Product('Cubs Hat', '../assets/cubsHat.jpg');
+let Dodgers = new Product('Dodgers Hat', '../assets/dodgersHat.jpg');
+let Frisbee = new Product('Frisbee Jersey', '../assets/frisbeeJersey.jpg');
+let Yeezy = new Product('Grey Yeezy', '../assets/greyYeezy.jpg');
+let Kobe = new Product('Kobe Jersey', '../assets/kobeJersey.jpg');
+let Lebron = new Product('Lebron Jersey', '../assets/lebronJersey.jpg');
+let Luka = new Product('Luka Jersey', '../assets/lukaJersey.jpg');
+let Raiders = new Product('Raiders Hat', '../assets/raidersHat.jpg');
+let Raptors = new Product('Raptors Hat', '../assets/raptorsHat.jpg');
+let redNike = new Product('Red Domino', '../assets/redDomino.jpg');
+let redDunks = new Product('Red Dunks', '../assets/redDunk.jpg');
+let Retro11 = new Product('Retro Eleven', '../assets/retroEleven.jpg');
+let Retro07 = new Product('Retro Seven', '../assets/retroSeven.jpg');
 
 state.productsArray.push(
   Burks,
