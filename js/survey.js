@@ -16,7 +16,6 @@ const state = {
   productsArray: [],
   indexArray: [],
 };
-
 function Product(name, src) {
   this.name = name;
   this.src = src;
@@ -40,9 +39,9 @@ function productRenders() {
   let product2 = state.indexArray.shift();
   let product3 = state.indexArray.shift();
 
-  image1.src = state.productsArray[product1].src;
-  image2.src = state.productsArray[product2].src;
-  image3.src = state.productsArray[product3].src;
+  image1.src = state.productsArray[product1]?.src;
+  image2.src = state.productsArray[product2]?.src;
+  image3.src = state.productsArray[product3]?.src;
 
   image1.alt = state.productsArray[product1].name;
   image2.alt = state.productsArray[product2].name;
